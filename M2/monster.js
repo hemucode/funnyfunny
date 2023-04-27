@@ -37,7 +37,7 @@ if (typeof addMonster === 'undefined' || !addMonster) {
         USE_DEFAULT_MONSTER ? a['children']('.codehemu-monster-hitbox')['children']('.codehemu-monster-text')['html']('&#' + (128513 + 34) + ';') : a['children']('.codehemu-monster-hitbox')['children']('img')['attr']('src', chrome['runtime']['getURL']('monster/1f634.png'));
     }
     function randomizeMonster(a) {
-        USE_DEFAULT_MONSTER ? a['children']('.codehemu-monster-hitbox')['children']('.codehemu-monster-text')['html']('&#' + (128513 + Math['floor'](Math['random']() * (128567 - 128513))) + ';') : a['children']('.codehemu-monster-hitbox')['children']('img')['attr']('src', chrome['runtime']['getURL']('monster/1f6' + ('0' + Math['floor'](Math['random']() * 68))['slice'](-2) + '.png'));
+        USE_DEFAULT_MONSTER ? a['children']('.codehemu-monster-hitbox')['children']('.codehemu-monster-text')['html']('&#' + (128513 + Math['floor'](Math['random']() * (128567 - 128513))) + ';') : a['children']('.codehemu-monster-hitbox')['children']('img')['attr']('src', chrome['runtime']['getURL']('monster/1f6' + ('0' + Math['floor'](Math['random']() * 62))['slice'](-2) + '.png'));
     }
     function initializeMonster(a) {
         a['html'](''), a['append']($('<div/>')['addClass']('codehemu-monster-hitbox')), USE_DEFAULT_MONSTER ? a['children']('.codehemu-monster-hitbox')['append']($('<div/>')['addClass']('codehemu-monster-text')) : a['children']('.codehemu-monster-hitbox')['append']($('<img>')), randomizeMonster(a), a['css']('left', $(window)['scrollLeft']() + Math['floor'](window['innerWidth'] / 2)), a['css']('top', $(window)['scrollTop']() + Math['floor'](window['innerHeight'] / 2));

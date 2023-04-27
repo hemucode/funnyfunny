@@ -20,7 +20,7 @@
    } ],   
    "default_locale": "en",
    "description": "__MSG_extShortDesc__",
-   "homepage_url": "https://www.downloadhub.cloud/2023/04/monster.html",
+   "homepage_url": "https://www.downloadhub.cloud/2023/04/funny.html",
    "icons": {
       "128": "images/128.png",
       "64": "images/64.png",
@@ -36,7 +36,7 @@
       "http://*/*", 
       "https://*/*"],
    "short_name": "monster",
-   "version": "4.3",
+   "version": "4.3.1",
    "web_accessible_resources": ["monster/*.png","images/*.png"]
 }
 

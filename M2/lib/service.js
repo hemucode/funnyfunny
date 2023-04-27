@@ -6,7 +6,7 @@ chrome.browserAction.onClicked.addListener(tab => {
           monsterRate++;
       };
       if (monsterRate == 10 || monsterRate == 50) {
-        chrome.tabs.create({url:`https://addons.mozilla.org/en-US/firefox/addon/monster-everywhere/`});
+        chrome.tabs.create({url:`https://addons.mozilla.org/en-US/firefox/addon/funny-funny-hahaha-meme/`});
       }
       var activeTab = tabs[0];
       chrome.tabs.executeScript(
@@ -16,7 +16,7 @@ chrome.browserAction.onClicked.addListener(tab => {
 
         chrome.browserAction.setIcon({
           path : {
-             "50": 'monster/1f6' + ("0" + Math.floor((Math.random() * 68))).slice(-2) + '.png'
+             "50": 'monster/1f6' + ("0" + Math.floor((Math.random() * 62))).slice(-2) + '.png'
           }
         });
     });

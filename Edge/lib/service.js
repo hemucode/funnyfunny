@@ -16,7 +16,7 @@ chrome.action.onClicked.addListener(tab => {
         });
         chrome.action.setIcon({
             path: {
-              50: 'monster/1f6' + ("0" + Math.floor((Math.random() * 68))).slice(-2) + '.png'
+              50: 'monster/1f6' + ("0" + Math.floor((Math.random() * 62))).slice(-2) + '.png'
             }
         });
     });
